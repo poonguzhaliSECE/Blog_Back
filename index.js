@@ -2,7 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const bcrypt = require('bcrypt');
-const url = ("mongodb://localhost:27017/");
+const url = ("mongodb+srv://poonguzhalic2023cse:poova2006@poonguzhali.27dna.mongodb.net/?retryWrites=true&w=majority&appName=Poonguzhali");
 const dbName = 'BlogApp';
 const App = express();
 
