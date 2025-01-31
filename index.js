@@ -8,7 +8,7 @@ const App = express();
 
 
 App.use(cors({
-    origin: 'http://localhost:3000', 
+    origin: 'https://blog-front-eosin.vercel.app/', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }))
